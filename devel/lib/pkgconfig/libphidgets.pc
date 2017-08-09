@@ -1,0 +1,8 @@
+prefix=/home/servicerobot2/catkin_ws2/devel
+
+Name: libphidgets
+Description: Description of libphidgets
+Version: 0.6.10
+Cflags: -I/home/servicerobot2/catkin_ws2/src/libphidgets/include
+Libs: -L/home/servicerobot2/catkin_ws2/devel/lib -lphidget21
+Requires: 

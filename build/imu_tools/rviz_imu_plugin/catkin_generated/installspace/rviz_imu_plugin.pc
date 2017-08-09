@@ -1,0 +1,8 @@
+prefix=/home/servicerobot2/catkin_ws2/install
+
+Name: rviz_imu_plugin
+Description: Description of rviz_imu_plugin
+Version: 1.0.14
+Cflags: 
+Libs: -L/home/servicerobot2/catkin_ws2/install/lib 
+Requires: rviz

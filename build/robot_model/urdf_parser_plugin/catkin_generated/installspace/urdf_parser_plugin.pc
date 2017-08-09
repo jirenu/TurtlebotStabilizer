@@ -1,0 +1,8 @@
+prefix=/home/servicerobot2/catkin_ws2/install
+
+Name: urdf_parser_plugin
+Description: Description of urdf_parser_plugin
+Version: 1.12.7
+Cflags: -I/home/servicerobot2/catkin_ws2/install/include -I/usr/include
+Libs: -L/home/servicerobot2/catkin_ws2/install/lib 
+Requires: 

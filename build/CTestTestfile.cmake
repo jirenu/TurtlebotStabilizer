@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: /home/servicerobot2/catkin_ws2/src
+# Build directory: /home/servicerobot2/catkin_ws2/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+SUBDIRS(gtest)
+SUBDIRS(imu_tools/imu_tools)
+SUBDIRS(phidgets_drivers/libphidget21)
+SUBDIRS(phidgets_drivers/phidgets_api)
+SUBDIRS(phidgets_drivers/phidgets_drivers)
+SUBDIRS(robot_model/robot_model)
+SUBDIRS(rl-texplore-ros-pkg/src/rl_msgs)
+SUBDIRS(turtlebot/turtlebot)
+SUBDIRS(turtlebot/turtlebot_bringup)
+SUBDIRS(turtlebot/turtlebot_capabilities)
+SUBDIRS(robot_model/urdf_parser_plugin)
+SUBDIRS(beginner_tutorials)
+SUBDIRS(robot_model/joint_state_publisher)
+SUBDIRS(rl-texplore-ros-pkg/src/rl_common)
+SUBDIRS(imu_tools/imu_complementary_filter)
+SUBDIRS(phidgets_drivers/phidgets_imu)
+SUBDIRS(rl-texplore-ros-pkg/src/rl_agent)
+SUBDIRS(rl-texplore-ros-pkg/src/rl_env)
+SUBDIRS(rl-texplore-ros-pkg/src/rl_experiment)
+SUBDIRS(imu_tools/imu_filter_madgwick)
+SUBDIRS(turtlebot/turtlebot_teleop)
+SUBDIRS(learning_tf)
+SUBDIRS(robot_model/urdf)
+SUBDIRS(robot_model/collada_parser)
+SUBDIRS(robot_model/collada_urdf)
+SUBDIRS(robot_model/kdl_parser)
+SUBDIRS(robot_model/kdl_parser_py)
+SUBDIRS(imu_tools/rviz_imu_plugin)
+SUBDIRS(urdf_tutorial)
+SUBDIRS(turtlebot/turtlebot_description)

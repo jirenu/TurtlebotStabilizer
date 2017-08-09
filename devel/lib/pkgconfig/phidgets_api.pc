@@ -1,0 +1,8 @@
+prefix=/home/servicerobot2/catkin_ws2/devel
+
+Name: phidgets_api
+Description: Description of phidgets_api
+Version: 0.7.2
+Cflags: -I/home/servicerobot2/catkin_ws2/src/phidgets_drivers/phidgets_api/include
+Libs: -L/home/servicerobot2/catkin_ws2/devel/lib -lphidgets_api
+Requires: libphidget21

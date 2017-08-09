@@ -1,0 +1,8 @@
+prefix=/home/servicerobot2/catkin_ws2/devel
+
+Name: turtlebot_teleop
+Description: Description of turtlebot_teleop
+Version: 2.4.2
+Cflags: 
+Libs: -L/home/servicerobot2/catkin_ws2/devel/lib 
+Requires: roscpp geometry_msgs joy

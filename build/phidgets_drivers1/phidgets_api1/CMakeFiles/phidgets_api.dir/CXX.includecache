@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/servicerobot2/catkin_ws2/src/libphidgets/include/libphidgets/phidget21.h
+
+/home/servicerobot2/catkin_ws2/src/phidgets_drivers1/phidgets_api1/include/phidgets_api/imu.h
+phidgets_api/phidget.h
+/home/servicerobot2/catkin_ws2/src/phidgets_drivers1/phidgets_api1/include/phidgets_api/phidgets_api/phidget.h
+
+/home/servicerobot2/catkin_ws2/src/phidgets_drivers1/phidgets_api1/include/phidgets_api/ir.h
+phidgets_api/phidget.h
+/home/servicerobot2/catkin_ws2/src/phidgets_drivers1/phidgets_api1/include/phidgets_api/phidgets_api/phidget.h
+
+/home/servicerobot2/catkin_ws2/src/phidgets_drivers1/phidgets_api1/include/phidgets_api/phidget.h
+libphidgets/phidget21.h
+-
+iostream
+-
+algorithm
+-
+string
+-
+cstring
+-
+stdio.h
+-
+
+/home/servicerobot2/catkin_ws2/src/phidgets_drivers1/phidgets_api1/src/imu.cpp
+phidgets_api/imu.h
+/home/servicerobot2/catkin_ws2/src/phidgets_drivers1/phidgets_api1/src/phidgets_api/imu.h
+
+/home/servicerobot2/catkin_ws2/src/phidgets_drivers1/phidgets_api1/src/ir.cpp
+phidgets_api/ir.h
+/home/servicerobot2/catkin_ws2/src/phidgets_drivers1/phidgets_api1/src/phidgets_api/ir.h
+
+/home/servicerobot2/catkin_ws2/src/phidgets_drivers1/phidgets_api1/src/phidget.cpp
+phidgets_api/phidget.h
+/home/servicerobot2/catkin_ws2/src/phidgets_drivers1/phidgets_api1/src/phidgets_api/phidget.h
+

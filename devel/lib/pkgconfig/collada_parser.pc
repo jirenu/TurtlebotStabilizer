@@ -1,0 +1,8 @@
+prefix=/home/servicerobot2/catkin_ws2/devel
+
+Name: collada_parser
+Description: Description of collada_parser
+Version: 1.12.7
+Cflags: -I/home/servicerobot2/catkin_ws2/src/robot_model/collada_parser/include -I/usr/include
+Libs: -L/home/servicerobot2/catkin_ws2/devel/lib -lcollada_parser
+Requires: roscpp urdf_parser_plugin

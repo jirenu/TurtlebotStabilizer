@@ -1,0 +1,8 @@
+prefix=/home/servicerobot2/catkin_ws2/devel
+
+Name: kobuki_node
+Description: Description of kobuki_node
+Version: 0.7.4
+Cflags: -I/home/servicerobot2/catkin_ws2/src/kobuki/kobuki_node/include
+Libs: -L/home/servicerobot2/catkin_ws2/devel/lib -lkobuki_ros -lkobuki_nodelet
+Requires: rospy roscpp nodelet pluginlib tf angles geometry_msgs sensor_msgs nav_msgs std_msgs diagnostic_updater diagnostic_msgs kobuki_msgs kobuki_driver kobuki_keyop kobuki_safety_controller ecl_exceptions ecl_sigslots ecl_streams ecl_threads

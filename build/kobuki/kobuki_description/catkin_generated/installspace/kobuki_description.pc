@@ -1,0 +1,8 @@
+prefix=/home/servicerobot2/catkin_ws2/install
+
+Name: kobuki_description
+Description: Description of kobuki_description
+Version: 0.7.4
+Cflags: 
+Libs: -L/home/servicerobot2/catkin_ws2/install/lib 
+Requires: urdf xacro

@@ -1,0 +1,8 @@
+prefix=/home/servicerobot2/catkin_ws2/install
+
+Name: kobuki_safety_controller
+Description: Description of kobuki_safety_controller
+Version: 0.7.4
+Cflags: -I/home/servicerobot2/catkin_ws2/install/include
+Libs: -L/home/servicerobot2/catkin_ws2/install/lib -lkobuki_safety_controller_nodelet
+Requires: roscpp nodelet pluginlib std_msgs geometry_msgs kobuki_msgs yocs_controllers ecl_threads

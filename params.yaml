@@ -1,0 +1,12 @@
+background_b: 255
+background_g: 86
+background_r: 150
+rosdistro: 'indigo
+
+  '
+roslaunch:
+  uris: {host_158_130_175_3__44637: 'http://158.130.175.3:44637/'}
+rosversion: '1.11.20
+
+  '
+run_id: 7e83b2ba-045d-11e7-983a-3413e82b12b8

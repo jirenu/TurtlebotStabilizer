@@ -1,0 +1,8 @@
+prefix=/home/servicerobot2/catkin_ws2/devel
+
+Name: kobuki_bumper2pc
+Description: Description of kobuki_bumper2pc
+Version: 0.7.4
+Cflags: -I/home/servicerobot2/catkin_ws2/src/kobuki/kobuki_bumper2pc/include
+Libs: -L/home/servicerobot2/catkin_ws2/devel/lib -lkobuki_bumper2pc_nodelet
+Requires: roscpp nodelet pluginlib sensor_msgs kobuki_msgs

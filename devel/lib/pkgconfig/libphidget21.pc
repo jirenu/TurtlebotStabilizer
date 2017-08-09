@@ -1,0 +1,8 @@
+prefix=/home/servicerobot2/catkin_ws2/devel
+
+Name: libphidget21
+Description: Description of libphidget21
+Version: 0.7.2
+Cflags: 
+Libs: -L/home/servicerobot2/catkin_ws2/devel/lib 
+Requires: 

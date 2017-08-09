@@ -1,0 +1,8 @@
+prefix=/home/servicerobot2/catkin_ws2/devel
+
+Name: rl_agent
+Description: Description of rl_agent
+Version: 0.0.0
+Cflags: -I/home/servicerobot2/catkin_ws2/src/rl-texplore-ros-pkg/src/rl_agent/include
+Libs: -L/home/servicerobot2/catkin_ws2/devel/lib 
+Requires: message_runtime

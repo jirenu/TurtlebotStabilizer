@@ -1,0 +1,8 @@
+prefix=/home/servicerobot2/catkin_ws2/install
+
+Name: libphidgets
+Description: Description of libphidgets
+Version: 0.6.10
+Cflags: -I/home/servicerobot2/catkin_ws2/install/include
+Libs: -L/home/servicerobot2/catkin_ws2/install/lib -lphidget21
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/servicerobot2/catkin_ws2/install
+
+Name: rl_experiment
+Description: Description of rl_experiment
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/servicerobot2/catkin_ws2/install/lib 
+Requires: message_runtime

@@ -1,0 +1,8 @@
+prefix=/home/servicerobot2/catkin_ws2/install
+
+Name: phidgets_api2
+Description: Description of phidgets_api2
+Version: 0.2.2
+Cflags: -I/home/servicerobot2/catkin_ws2/install/include
+Libs: -L/home/servicerobot2/catkin_ws2/install/lib -lphidgets_api2
+Requires: libphidgets

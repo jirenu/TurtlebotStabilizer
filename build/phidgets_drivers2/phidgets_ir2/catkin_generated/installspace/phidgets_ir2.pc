@@ -1,0 +1,8 @@
+prefix=/home/servicerobot2/catkin_ws2/install
+
+Name: phidgets_ir2
+Description: Description of phidgets_ir2
+Version: 0.2.2
+Cflags: -I/home/servicerobot2/catkin_ws2/install/include
+Libs: -L/home/servicerobot2/catkin_ws2/install/lib -lphidgets_ir2
+Requires: geometry_msgs nodelet phidgets_api2 roscpp sensor_msgs std_msgs std_srvs tf

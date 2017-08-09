@@ -1,0 +1,8 @@
+prefix=/home/servicerobot2/catkin_ws2/install
+
+Name: kdl_parser_py
+Description: Description of kdl_parser_py
+Version: 1.12.7
+Cflags: 
+Libs: -L/home/servicerobot2/catkin_ws2/install/lib -lkdl_parser_py
+Requires: urdf

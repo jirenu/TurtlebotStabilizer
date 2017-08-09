@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/servicerobot2/catkin_ws2/src/phidgets_drivers2/phidgets_imu2/src/imu_ros_i2.cpp
+phidgets_imu2/imu_ros_i2.h
+/home/servicerobot2/catkin_ws2/src/phidgets_drivers2/phidgets_imu2/src/phidgets_imu2/imu_ros_i2.h
+

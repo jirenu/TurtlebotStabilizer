@@ -1,0 +1,8 @@
+prefix=/home/servicerobot2/catkin_ws2/devel
+
+Name: imu_complementary_filter
+Description: Description of imu_complementary_filter
+Version: 1.0.14
+Cflags: -I/home/servicerobot2/catkin_ws2/src/imu_tools/imu_complementary_filter/include
+Libs: -L/home/servicerobot2/catkin_ws2/devel/lib -lcomplementary_filter
+Requires: message_filters roscpp sensor_msgs std_msgs tf
