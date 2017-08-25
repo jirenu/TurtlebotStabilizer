@@ -19,7 +19,7 @@ All files are located in */home/servicerobot2/catkin_ws2/src/beginner_tutorials*
 * *startTurtlebotWithoutKeyboard* - Invokes **~/jishnu/scripts/rosboot** with listener running in the foreground
 # Suggested future work
 One of the following paths can be taken to successfully stabilize the movements of turtlebots:
-* A functional approximator with a model free agent such as q-learning or SARSA can be used to deal with continuous state space.
+* A functional approximator with a model free agent such as q-learner or SARSA can be used to deal with continuous state space.
 * A model based agent such as texlplore or r-max in conjunction with state range and number of states can be used to discretize the state space.
 * A policy gradient method can be used to make deal with continuous action and state spaces.
 * A different machine learning technique such as neural nets can be applied.
