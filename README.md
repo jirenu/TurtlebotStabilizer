@@ -1,6 +1,7 @@
 # Stabilizing turtlebots' motion
 # How to run agents in rl_agent
 **Start the agent before publishing to topics pertinent to the agent**
+Execute the following commands in the **same** order.
 1. roscore
 2. roslaunch turtlebot_bringup minimal.launch
 3. roslaunch turtlebot_teleop keyboard_teleop.launch
