@@ -54,6 +54,7 @@ ros::Publisher pub;
 ros::Publisher pubRLEnv;
 ros::Publisher pubRLState;
 
+//The following two methods calculate delta Time using the number of clock cycles per second
 void startTimer()
 {
 	start = std::clock();
@@ -64,6 +65,7 @@ double stopTimer()
 	start = std::clock();
 	return duration;
 }
+//Calculates the derivative of acceleration i.e. jerk
 float calculateDerivative(float acc1, float acc2, double deltaTime)
 {
 	if(deltaTime == 0)
@@ -72,6 +74,8 @@ float calculateDerivative(float acc1, float acc2, double deltaTime)
 	}	
 	return (acc2-acc1)/(float)deltaTime;
 }
+
+
 float cancelNoise(float val, float low, float high)
 {
         if(val>= low && val<=high)
@@ -146,14 +150,16 @@ void cmd_vel_Callback_odom(const nav_msgs::Odometry& odom)
 
 void imu1_Callback(const sensor_msgs::Imu& imu1)
 {
-  stateReward.imu1LinearX = imu1.linear_acceleration.x;
-  stateReward.imu1LinearZ = imu1.linear_acceleration.z;
+  //This was done to ensure that the IMU report 0.0 when stationary 
+  stateReward.imu1LinearX = cancelNoise(imu1.linear_acceleration.x,0.0,-0.01);
+  stateReward.imu1LinearZ = cancelNoise(imu1.linear_acceleration.z,0.0,-0.09);
    
 }
 
 void imu2_Callback(const sensor_msgs::Imu& imu2)
 {
-  stateReward.imu2LinearX = cancelNoise(imu2.linear_acceleration.x,0.0,-0.1);
+  //This was done to ensure that the IMU report 0.0 when stationary
+  stateReward.imu2LinearX = cancelNoise(imu2.linear_acceleration.x,0.0,-0.01);
   stateReward.imu2LinearZ = cancelNoise(imu2.linear_acceleration.z,0.0,-0.09);
 }
 void actPrinter()
