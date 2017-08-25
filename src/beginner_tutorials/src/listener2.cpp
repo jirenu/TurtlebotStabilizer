@@ -110,9 +110,6 @@ float rewardCalculator(StateReward st)
 }
 
 
-/**
- * This tutorial demonstrates simple receipt of messages over the ROS system.
- */
 void cmd_vel_Callback_teleop(const geometry_msgs::Twist& cmd_vel)
 {
   //Set struct values
